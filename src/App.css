@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.header-h1 {
+  background-color: #282c34;
+  width: 100%;
+  color: azure;
+}
