@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -41,4 +42,24 @@
   background-color: #282c34;
   width: 100%;
   color: azure;
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pokeCard {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em 0 1em;
 }
